@@ -27,3 +27,24 @@ See [push_button_led.ino](code/push_button_led.ino).
 - [ ] Verify the physical circuit, if built
 
 *The project is not marked complete until it has been tested.*
+
+## Understanding the 4-Pin Push Button
+
+For a standard 4-pin tactile push button:
+
+- Legs 1 and 2 are internally connected as one pair.
+- Legs 3 and 4 are internally connected as the other pair.
+- The two pairs connect to each other only while the button is pressed.
+
+Connect 5V to one leg from the first pair and Arduino D2 to one leg from the second pair. These four combinations work:
+
+| 5V connection | D2 connection |
+|---|---|
+| Leg 1 | Leg 3 |
+| Leg 1 | Leg 4 |
+| Leg 2 | Leg 3 |
+| Leg 2 | Leg 4 |
+
+**Important:** Do not connect 5V and D2 to legs from the same internally connected pair. They would already be electrically connected, so pressing the button would not provide the intended switching action.
+
+Use a 10 kΩ pull-down resistor between D2 and GND so the input reads LOW when the button is released.
