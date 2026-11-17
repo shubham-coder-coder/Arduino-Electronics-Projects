@@ -1,6 +1,9 @@
 # Circuit files
 
-## Wiring diagram
+## Live Cirkit Designer project
+[Open the LED Blinking circuit and simulate it in Cirkit Designer](https://app.cirkitdesigner.com/project/df286c8f-d438-49d3-bef1-302443497155).
+
+## Static wiring diagram
 See [led-blinking-wiring.svg](led-blinking-wiring.svg).
 
 For an external LED, connect:
@@ -11,8 +14,5 @@ For an external LED, connect:
 
 The Uno's built-in LED is also connected to D13 and can be used to test the sketch without an external LED.
 
-## Cirkit Designer project
-The uploaded native `.ckt` file has not yet been added to this repository. Save/export the tested Cirkit Designer project into this folder when available.
-
 ## Verification
-The diagram documents the intended wiring; it does not mean the simulation or hardware has been tested. Add a screenshot or native project export after testing.
+The shared project link and static diagram are provided for viewing. The simulation has not yet been independently verified here. Add a screenshot or native project export after testing if you want a copy stored in this repository.
