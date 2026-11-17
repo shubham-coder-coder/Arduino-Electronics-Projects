@@ -20,13 +20,11 @@ See [push_button_led.ino](code/push_button_led.ino).
 ## Cirkit Designer Simulation
 [Open the Push Button Controlled LED circuit and simulate it](https://app.cirkitdesigner.com/project/610ea327-8c2b-49bb-b7d1-bfa96832540d).
 
-## Verification
-- [ ] Open the shared Cirkit Designer project
-- [ ] Run the simulation
-- [ ] Verify the LED responds to the push button
-- [ ] Verify the physical circuit, if built
+## Simulation Verification
+- [x] Cirkit Designer simulation completed
+- [x] LED response to the push button verified in simulation
 
-*The project is not marked complete until it has been tested.*
+*Simulation verified. Physical hardware testing is separate.*
 
 ## Understanding the 4-Pin Push Button
 
