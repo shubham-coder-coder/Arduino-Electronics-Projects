@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <rect width="900" height="300" fill="#ffffff"/>
+  <g stroke="#222" stroke-width="3" fill="none">
+    <rect x="45" y="75" width="180" height="150" rx="12"/>
+    <path d="M225 125 H330 M225 190 H330"/>
+    <rect x="330" y="108" width="115" height="34" rx="5" fill="#f3f3f3"/>
+    <path d="M445 125 H565"/>
+    <path d="M565 125 L600 95 L635 125 L600 155 Z" fill="#dff5df"/>
+    <path d="M635 125 H770 V190 H225"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#111">
+    <text x="135" y="135" font-size="24" text-anchor="middle">Arduino Uno</text>
+    <text x="135" y="170" font-size="20" text-anchor="middle">D13</text>
+    <text x="387" y="98" font-size="18" text-anchor="middle">220 Ω resistor</text>
+    <text x="600" y="78" font-size="18" text-anchor="middle">LED</text>
+    <text x="600" y="185" font-size="16" text-anchor="middle">Anode →</text>
+    <text x="790" y="195" font-size="20">GND</text>
+    <text x="135" y="255" font-size="16" text-anchor="middle">Digital output</text>
+    <text x="450" y="275" font-size="16" text-anchor="middle">D13 → 220 Ω → LED anode; LED cathode → GND</text>
+  </g>
+</svg>
