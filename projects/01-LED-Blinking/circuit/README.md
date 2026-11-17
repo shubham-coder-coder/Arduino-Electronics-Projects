@@ -1,12 +1,18 @@
 # Circuit files
 
-Build the Project 01 circuit in Cirkit Designer:
+## Wiring diagram
+See [led-blinking-wiring.svg](led-blinking-wiring.svg).
 
-1. Place an Arduino Uno, an LED, a 220 Ω resistor, and wires.
-2. Connect D8 → resistor → LED anode (long leg).
-3. Connect LED cathode (short leg) → GND.
-4. Verify the wiring before running the simulation.
+For an external LED, connect:
 
-Save or export the Cirkit Designer circuit here when available. Add a screenshot of the tested circuit to the `images/` folder.
+1. Arduino Uno D13 → 220 Ω resistor.
+2. Other resistor terminal → LED anode (long leg).
+3. LED cathode (short leg) → Arduino GND.
 
-No circuit export or test screenshot has been added yet.
+The Uno's built-in LED is also connected to D13 and can be used to test the sketch without an external LED.
+
+## Cirkit Designer project
+The uploaded native `.ckt` file has not yet been added to this repository. Save/export the tested Cirkit Designer project into this folder when available.
+
+## Verification
+The diagram documents the intended wiring; it does not mean the simulation or hardware has been tested. Add a screenshot or native project export after testing.
