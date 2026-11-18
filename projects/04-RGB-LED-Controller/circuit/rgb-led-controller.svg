@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#f7f9fc"/>
+<text x="450" y="42" text-anchor="middle" font-family="Arial" font-size="26" font-weight="bold" fill="#172033">RGB LED Controller — Arduino Uno</text>
+<rect x="70" y="130" width="300" height="280" rx="24" fill="#167b91" stroke="#07566a" stroke-width="4"/>
+<text x="220" y="185" text-anchor="middle" font-family="Arial" font-size="24" fill="white" font-weight="bold">Arduino Uno</text>
+<text x="110" y="250" font-family="Arial" font-size="20" fill="white">D3 (PWM)</text>
+<text x="110" y="310" font-family="Arial" font-size="20" fill="white">D5 (PWM)</text>
+<text x="110" y="370" font-family="Arial" font-size="20" fill="white">D6 (PWM)</text>
+<circle cx="340" cy="243" r="7" fill="#2455d6"/><circle cx="340" cy="303" r="7" fill="#1c9b50"/><circle cx="340" cy="363" r="7" fill="#dc3333"/>
+<rect x="620" y="175" width="150" height="150" rx="65" fill="#e5e7eb" stroke="#64748b" stroke-width="4"/>
+<text x="695" y="235" text-anchor="middle" font-family="Arial" font-size="22" fill="#172033" font-weight="bold">RGB</text>
+<text x="695" y="265" text-anchor="middle" font-family="Arial" font-size="18" fill="#172033">LED</text>
+<path d="M340 243 H500 V205 H620" fill="none" stroke="#2455d6" stroke-width="7"/>
+<path d="M340 303 H530 V250 H620" fill="none" stroke="#1c9b50" stroke-width="7"/>
+<path d="M340 363 H560 V295 H620" fill="none" stroke="#dc3333" stroke-width="7"/>
+<text x="475" y="185" font-family="Arial" font-size="18" fill="#2455d6">Blue</text>
+<text x="500" y="285" font-family="Arial" font-size="18" fill="#1c9b50">Green</text>
+<text x="560" y="340" font-family="Arial" font-size="18" fill="#dc3333">Red</text>
+<path d="M695 325 V405 H220 V410" fill="none" stroke="#333" stroke-width="5"/>
+<text x="450" y="445" text-anchor="middle" font-family="Arial" font-size="18" fill="#333">Common cathode → GND (if using common-cathode RGB LED)</text>
+<text x="450" y="485" text-anchor="middle" font-family="Arial" font-size="16" fill="#475569">Use one current-limiting resistor in series with each colour channel.</text>
+</svg>
